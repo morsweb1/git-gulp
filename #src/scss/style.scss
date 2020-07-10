@@ -1,0 +1,33 @@
+@import "fonts";
+body {
+    font-size: 30px;
+    display: flex;
+    h1 {
+        font-size: 50px;
+        color: #383131;
+    }
+    p {
+        color: #545454;
+    }
+    @media (max-width: 767px) {
+        background-color: yellowgreen;
+    }
+}
+.block {
+    width: 300px;
+    height: 100px;
+    background: url(../img/aerial.jpg) no-repeat;
+}
+span {
+    background-color: #fff;
+    font-size: larger;
+    @media (max-width: 767px) {
+        font-size: 20px;
+    }
+}
+div {
+    width: 100px;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
